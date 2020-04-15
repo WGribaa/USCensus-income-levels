@@ -1,0 +1,10 @@
+,Algorithm,Parameters,mean_test_score,mean_train_score
+132,MLPClassifier,"{'activation': 'tanh', 'alpha': 0.01, 'hidden_layer_sizes': (50, 50, 50), 'learning_rate': 'constant', 'max_iter': 75, 'solver': 'sgd'}",0.8573360655737705,0.8618442622950819
+3,LogisticRegression,"{'C': 100, 'n_jobs': -1, 'penalty': 'l2'}",0.8568032786885246,0.8584016393442623
+54,SGDClassifier,"{'alpha': 0.01, 'loss': 'modified_huber', 'max_iter': 75, 'n_jobs': -1, 'penalty': 'l2'}",0.8566803278688525,0.8565983606557378
+107,RandomForestClassifier,"{'max_depth': 100, 'max_features': 'auto', 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 200, 'n_jobs': -1}",0.8556967213114755,0.8630737704918033
+117,AdaBoostClassifier,"{'learning_rate': 0.1, 'n_estimators': 100}",0.8469672131147542,0.847858606557377
+7,KNeighborsClassifier,"{'n_jobs': -1, 'n_neighbors': 25, 'p': 2}",0.8432786885245902,0.8532479508196721
+80,DecisionTreeClassifier,"{'max_depth': 36, 'max_features': 25, 'min_samples_leaf': 0.1, 'min_samples_split': 0.1}",0.7695081967213114,0.7678790983606557
+24,SVC,"{'C': 1, 'degree': 2, 'gamma': 100, 'kernel': 'rbf', 'max_iter': 75}",0.7566803278688525,0.7586475409836065
+30,SVC,"{'C': 1, 'degree': 6, 'gamma': 100, 'kernel': 'rbf', 'max_iter': 75}",0.7566803278688525,0.7586475409836065
